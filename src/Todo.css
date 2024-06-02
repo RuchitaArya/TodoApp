@@ -1,0 +1,80 @@
+.inputvalue{
+    height: 6rem;
+    width: 40rem;
+    border-radius: 3rem;
+    background-color: rgb(30, 235, 250);
+    box-shadow:1px 1px 1px 1px;
+    
+}
+.inputvalue input{
+    background-color:  rgb(30, 235, 250);
+    outline: none;
+    color: white;
+    border: none;
+    margin: 2rem;
+    font-size: 1.4rem;
+}
+body{
+    background-image: url(./w3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.buTTon{
+    height: 2.3rem;;
+    width: 4rem;
+    box-shadow:1px 1px 1px 1px;
+    border-radius: 1rem;
+    padding:0.4rem;
+    margin-left: 10rem;
+    border: none;
+   color: white;
+   font-size: 1.2rem;
+    background-color: rgb(10, 231, 239);
+}
+.TodoItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.nextTodo{
+    height: 2rem;
+    width: 29rem;
+    border-radius: 3rem;
+    background-color: rgb(30, 235, 250);
+    box-shadow:1px 1px 1px 1px;
+    margin:auto;
+    padding: 2rem;
+    margin-top: 3rem; 
+    font-size: 1.rem;
+}
+.nextTodo input{
+    height: 1.5rem;
+    width:12rem ;
+    border-radius: 1rem;
+    outline: none;
+}
+.RemoveButton{
+    height: 2.3rem;;
+    width: 4rem;
+    box-shadow:1px 1px 1px 1px;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    padding:0.4rem;
+    border: none;
+    color: white;
+    margin-left: 5rem;
+    background-color: rgb(10, 231, 239);
+}
+.editButton{
+    height: 2.3rem;;
+    width: 4rem;
+    box-shadow:1px 1px 1px 1px;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+   
+    border: none;
+    color: white;
+   
+    background-color: rgb(10, 231, 239);
+}
